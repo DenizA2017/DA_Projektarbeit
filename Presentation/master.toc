@@ -1,0 +1,11 @@
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Ziel der Projektabeit}{3}{0}{1}
+\beamer@sectionintoc {2}{Datensatz}{5}{0}{2}
+\beamer@sectionintoc {3}{Ansatz \IeC {\"u}ber Bildverarbeitung}{8}{0}{3}
+\beamer@sectionintoc {4}{Pipeline}{10}{0}{4}
+\beamer@subsectionintoc {4}{1}{1 - Klassifikation}{12}{0}{4}
+\beamer@subsectionintoc {4}{2}{2 - Erkennung einzelner Strukturen \& Objekte}{14}{0}{4}
+\beamer@subsectionintoc {4}{3}{3 - Erkennung von Sch\IeC {\"a}den innerhalb der Objekte}{16}{0}{4}
+\beamer@sectionintoc {5}{Evaluation}{18}{0}{5}
+\beamer@sectionintoc {6}{Future Work}{20}{0}{6}
+\beamer@sectionintoc {7}{Referenzen}{23}{0}{7}

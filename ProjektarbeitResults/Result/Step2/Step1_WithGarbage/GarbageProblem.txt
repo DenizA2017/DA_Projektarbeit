@@ -1,0 +1,15 @@
+Garbage Class für CNN:
+
+Das Netz overfitted sofort sobald eine Garbage Class eingefügt wird. 
+Alle Bilder werden in die Klasse Window eingeordnet. Auch bei einer Trainingszeit 
+von 100 Epochen ändert sich nichts. Bei einer Literaturrecherche zum Lösen der Problematik
+fiel auf das dieses Problem nur schwer bei neuronalen Netzen zu lösen ist.
+
+https://www.researchgate.net/post/How_to_determine_unknown_class_using_neural_network
+https://ai.stackexchange.com/questions/4889/how-to-implement-an-unknown-class-in-nn-classification 
+
+Eine mögliche Lösung ist das erstmal ohne Garbage Class gearbeitet wird. Wird dann ein Garbage Bild 
+klassifiziert würde es natürlich entweder zur Klasse Fliesen oder zur Klasse Fenster zugeordnet.
+Nun wird dieses Bild im zweiten Pipelineschritt ans RCNN weitergeleitet. Befindet sich nun keine Fliese 
+oder kein Fenster, oder findet das Netz nur minimale Fliesen/ Fensterflächen wird das Bild aussortiert. 
+Dies habe ich auch für 10 Garbagebilder getestet und sie wurden auch ausgefiltert. 

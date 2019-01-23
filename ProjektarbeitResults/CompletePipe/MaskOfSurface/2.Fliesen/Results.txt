@@ -1,0 +1,8 @@
+Results:
+
+Image 0: 88%
+Image 1: 78%
+Image 2: 83%
+Image 3: 80%
+Image 4: 74%
+Image 5: 79%
